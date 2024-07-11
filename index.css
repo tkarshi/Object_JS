@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student > img {
+  height: 200px;
+  margin-right: 5px;
+}
+
+.student-list-con {
+  display: flex;
+}
