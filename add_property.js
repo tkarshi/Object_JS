@@ -1,12 +1,12 @@
-let day1 = {
-  suirrel: false,
-  events: ["Music", "Dance", "Art", "Drama"],
-};
+// let day1 = {
+//   suirrel: false,
+//   events: ["Music", "Dance", "Art", "Drama"],
+// };
 
-//add property
-day1.time = "10 am";
+// //add property
+// day1.time = "10 am";
 
-console.log(day1.time);
+// console.log(day1.time);
 
 //add space in property
 
@@ -19,16 +19,19 @@ let test = {
 console.log(test["Unit Testing"]);
 
 //Delete property
-delete test["time"];
+// delete test["time"];
 
-console.log(test);
+// console.log(test);
 
 //add property
-test.in = "come in";
+// test.in = "come in";
 
-console.log(test);
+// console.log(test);
 
 //delete property
-delete test["Unit Testing"];
+// delete test["Unit Testing"];
 
-console.log(test);
+// console.log(test);
+
+//check
+console.log("day" in test);
