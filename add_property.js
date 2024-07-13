@@ -42,12 +42,26 @@ let test = {
 
 //get all properties in the object
 
-console.log(Object.keys(test));
+// console.log(Object.keys(test));
 
 //for loop for get oproperties in array
 
-let myKeys = Object.keys(test);
+// let myKeys = Object.keys(test);
 
-for (i = 0; i < myKeys.length; i++) {
-  console.log(myKeys[i]);
-}
+// for (i = 0; i < myKeys.length; i++) {
+//   console.log(myKeys[i]);
+// }
+
+//FOREACH loop
+
+// let myKeys = Object.keys(test);
+
+// myKeys.forEach((keys) => {
+//   console.log(keys);
+// });
+
+// let myKeys = Object.keys(test);
+
+Object.keys(test).forEach((keys) => {
+  console.log(keys);
+});
