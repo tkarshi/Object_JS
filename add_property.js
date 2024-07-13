@@ -16,7 +16,7 @@ let test = {
   out: "3 pm",
 };
 
-console.log(test["Unit Testing"]);
+// console.log(test["Unit Testing"]);
 
 //Delete property
 // delete test["time"];
@@ -33,5 +33,21 @@ console.log(test["Unit Testing"]);
 
 // console.log(test);
 
+//-----------------------------------------------
+
 //check
-console.log("day" in test);
+// console.log("day" in test);
+
+//----------------------------------------------
+
+//get all properties in the object
+
+console.log(Object.keys(test));
+
+//for loop for get oproperties in array
+
+let myKeys = Object.keys(test);
+
+for (i = 0; i < myKeys.length; i++) {
+  console.log(myKeys[i]);
+}
